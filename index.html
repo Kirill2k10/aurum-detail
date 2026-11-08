@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AURUM DETAIL — демонстрационный сайт студии автомобильного детейлинга в Санкт-Петербурге. Полировка, керамика, защитная плёнка и уход за интерьером.">
+  <meta name="theme-color" content="#101010">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="AURUM DETAIL — студия автодетейлинга">
+  <meta property="og:description" content="Детейлинг кузова и интерьера в Санкт-Петербурге. Демонстрационный проект.">
+  <title>AURUM DETAIL — детейлинг в Санкт-Петербурге</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icons" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 4v16m-6-6 6 6 6-6"/></symbol>
+    <symbol id="plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="drop" viewBox="0 0 40 40"><path d="M20 4C16 12 9 16 9 25a11 11 0 0 0 22 0c0-9-7-13-11-21Z"/><path d="M14 25c0 4 3 7 6 7"/></symbol>
+    <symbol id="shine" viewBox="0 0 40 40"><path d="M20 3c0 10 7 17 17 17-10 0-17 7-17 17 0-10-7-17-17-17 10 0 17-7 17-17Z"/></symbol>
+    <symbol id="shield" viewBox="0 0 40 40"><path d="M20 4c4 3 9 5 14 6v11c0 7-5 12-14 16-9-4-14-9-14-16V10c5-1 10-3 14-6Z"/><path d="m14 20 4 4 8-8"/></symbol>
+    <symbol id="seat" viewBox="0 0 40 40"><path d="M15 6a4 4 0 0 0-7 3l4 20a6 6 0 0 0 6 5h15a3 3 0 0 0 0-6H19l-4-22ZM6 37h29"/></symbol>
+  </svg>
+  <a class="skip" href="#main">К содержанию</a>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Aurum Detail, в начало">
+        <img src="assets/mark.svg" width="33" height="33" alt="">
+        <span>AURUM<span class="brand-small">DETAIL</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>
+        <span>Меню</span><span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <nav id="navigation" class="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#about">Студия</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#process">Процесс</a>
+        <a href="#contacts" class="nav-book">Записаться <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media media">
+        <img src="assets/hero.webp" srcset="assets/hero-small.webp 960w, assets/hero.webp 1672w"
+             sizes="(max-width: 720px) 960px, (max-width: 1100px) 1200px, 100vw"
+             width="1672" height="941" alt="" fetchpriority="high" data-fallback>
+      </div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Студия детейлинга <span class="bullet"></span> Санкт-Петербург</p>
+          <h1 id="hero-title">Искусство<br>в <em>деталях.</em></h1>
+          <p class="hero-description">Детейлинг кузова и интерьера. Возвращаем глубину цвета и подбираем защиту под ваш автомобиль.</p>
+          <a href="#contacts" class="button button-gold">Обсудить уход <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </div>
+        <div class="hero-foot">
+          <a href="#services"><svg aria-hidden="true"><use href="#down"/></svg> Смотреть услуги</a>
+          <span>01 / AURUM DETAIL</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section wrap" aria-labelledby="services-title">
+      <div class="section-head" data-reveal>
+        <div><p class="eyebrow section-index">01 / Услуги</p><h2 id="services-title">Уход и защита</h2></div>
+        <p>Подбираем уход по состоянию кузова и салона, условиям эксплуатации и вашим ожиданиям.</p>
+      </div>
+      <div class="services" data-reveal>
+        <article class="service">
+          <div class="service-top"><svg class="service-icon"><use href="#drop"/></svg><span>01</span></div>
+          <h3>Керамическое покрытие</h3>
+          <p>Подчёркивает глубину цвета и облегчает уход за кузовом.</p>
+          <a href="#contacts" data-service="ceramic" aria-label="Обсудить керамическое покрытие">Обсудить <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </article>
+        <article class="service">
+          <div class="service-top"><svg class="service-icon"><use href="#shine"/></svg><span>02</span></div>
+          <h3>Полировка кузова</h3>
+          <p>Уменьшаем видимость мелких царапин и возвращаем лаку блеск.</p>
+          <a href="#contacts" data-service="polish" aria-label="Обсудить полировку кузова">Обсудить <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </article>
+        <article class="service">
+          <div class="service-top"><svg class="service-icon"><use href="#shield"/></svg><span>03</span></div>
+          <h3>Защитная плёнка</h3>
+          <p>Оклеиваем уязвимые зоны или весь кузов для защиты от сколов.</p>
+          <a href="#contacts" data-service="film" aria-label="Обсудить оклейку защитной плёнкой">Обсудить <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </article>
+        <article class="service">
+          <div class="service-top"><svg class="service-icon"><use href="#seat"/></svg><span>04</span></div>
+          <h3>Детейлинг интерьера</h3>
+          <p>Очищаем кожу, ткань и пластик с учётом особенностей каждого материала.</p>
+          <a href="#contacts" data-service="interior" aria-label="Обсудить детейлинг интерьера">Обсудить <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section studio-section" aria-labelledby="about-title">
+      <div class="wrap studio" data-reveal>
+        <figure class="studio-visual">
+          <div class="media studio-main"><img src="assets/studio.webp" width="881" height="437" alt="Мастер полирует крыло автомобиля под светом студийной лампы" loading="lazy" decoding="async" data-fallback></div>
+          <div class="media studio-inset"><img src="assets/headlamp.webp" width="881" height="437" alt="" loading="lazy" decoding="async" data-fallback></div>
+          <figcaption>Демонстрационная съёмка</figcaption>
+        </figure>
+        <div class="studio-copy">
+          <p class="eyebrow section-index">02 / Студия</p>
+          <h2 id="about-title">Внимание<br>к каждой <em>линии.</em></h2>
+          <p>Детейлинг начинается с осмотра при направленном свете. Так видны мелкие следы на лаке, а в салоне проще оценить состояние кожи, ткани и пластика.</p>
+          <p>Объясняем, какие следы можно убрать и какие участки стоит защитить. Вместе определяем объём работ до их начала.</p>
+          <a class="text-link" href="#process">Как проходит работа <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section wrap" aria-labelledby="gallery-title">
+      <div class="section-head" data-reveal>
+        <div><p class="eyebrow section-index">03 / Галерея</p><h2 id="gallery-title">Фактура и свет</h2></div>
+        <p>Демонстрационные изображения. В галерее показаны иллюстрации, созданные для сайта.</p>
+      </div>
+      <div class="gallery" data-reveal>
+        <figure class="gallery-item">
+          <a class="gallery-link media" href="assets/coupe.webp" aria-label="Увеличить фото «Линии кузова»">
+            <img src="assets/coupe.webp" width="881" height="437" alt="Тёмно-зелёное купе в три четверти с красной линией задних фонарей" loading="lazy" decoding="async" data-fallback>
+            <span class="gallery-zoom"><svg aria-hidden="true"><use href="#plus"/></svg></span>
+          </a>
+          <figcaption><span>01</span> Линии кузова</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <a class="gallery-link media" href="assets/headlamp.webp" aria-label="Увеличить фото «Блеск покрытия»">
+            <img src="assets/headlamp.webp" width="881" height="437" alt="Серебристый кузов и фара крупным планом" loading="lazy" decoding="async" data-fallback>
+            <span class="gallery-zoom"><svg aria-hidden="true"><use href="#plus"/></svg></span>
+          </a>
+          <figcaption><span>02</span> Блеск покрытия</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <a class="gallery-link media" href="assets/interior.webp" aria-label="Увеличить фото «Фактура салона»">
+            <img src="assets/interior.webp" width="881" height="437" alt="Салон спортивного автомобиля с коньячной кожей и контрастной строчкой" loading="lazy" decoding="async" data-fallback>
+            <span class="gallery-zoom"><svg aria-hidden="true"><use href="#plus"/></svg></span>
+          </a>
+          <figcaption><span>03</span> Фактура салона</figcaption>
+        </figure>
+      </div>
+      <dialog class="lightbox" aria-label="Просмотр фотографий" aria-describedby="photo-caption">
+        <div class="lightbox-inner">
+          <button class="icon-button lightbox-close" type="button" aria-label="Закрыть фото" autofocus><svg aria-hidden="true"><use href="#close"/></svg></button>
+          <div class="media lightbox-media"><img width="881" height="437" alt="" data-fallback></div>
+          <div class="lightbox-controls">
+            <button class="icon-button previous" type="button" aria-label="Предыдущее фото"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+            <p id="photo-caption" aria-live="polite" aria-atomic="true"></p>
+            <button class="icon-button next" type="button" aria-label="Следующее фото"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+          </div>
+        </div>
+      </dialog>
+    </section>
+
+    <section id="process" class="section process-section" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <div><p class="eyebrow section-index">04 / Процесс</p><h2 id="process-title">Как проходит детейлинг</h2></div>
+        </div>
+        <ol class="steps" data-reveal>
+          <li><span>01</span><h3>Осмотр автомобиля</h3><p>Оцениваем состояние лака, плёнки и материалов салона.</p></li>
+          <li><span>02</span><h3>Подбор решения</h3><p>Согласуем услуги, объём работ и ожидаемый результат.</p></li>
+          <li><span>03</span><h3>Выполнение работ</h3><p>Готовим поверхности и проверяем результат при направленном свете.</p></li>
+          <li><span>04</span><h3>Передача автомобиля</h3><p>Показываем результат и объясняем, как ухаживать за обработанными поверхностями.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section wrap advantages" aria-labelledby="advantages-title" data-reveal>
+      <div><p class="eyebrow section-index">05 / Принципы</p><h2 id="advantages-title">Как мы бережём автомобиль</h2></div>
+      <ul>
+        <li><span>01</span><div><h3>Аккуратная работа</h3><p>Подбираем инструменты и составы под каждый материал.</p></div></li>
+        <li><span>02</span><div><h3>Индивидуальный подход</h3><p>Учитываем, где хранится автомобиль, как часто он ездит и в каких условиях.</p></div></li>
+        <li><span>03</span><div><h3>Услуги по состоянию автомобиля</h3><p>Объясняем, какие работы стоит выполнить сейчас и что можно отложить.</p></div></li>
+      </ul>
+    </section>
+
+    <section id="contacts" class="section contact-section" aria-labelledby="contacts-title">
+      <div class="wrap contacts" data-reveal>
+        <div class="contact-info">
+          <p class="eyebrow section-index">06 / Контакты</p>
+          <h2 id="contacts-title">Обсудим уход за <em>автомобилем?</em></h2>
+          <p class="city">Санкт-Петербург, Россия</p>
+          <address>
+            <a href="mailto:hello@aurum-detail.example">hello@aurum-detail.example</a>
+          </address>
+          <p class="fine-print">Демонстрационный адрес. Ссылки ведут на сайты мессенджеров.</p>
+          <div class="messengers">
+            <a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram, откроется в новой вкладке">Telegram <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+            <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp, откроется в новой вкладке">WhatsApp <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+          </div>
+        </div>
+        <form class="contact-form" aria-describedby="demo-notice">
+          <h3>Заявка на консультацию</h3>
+          <p id="demo-notice" class="fine-print">Демо-форма. Введённые данные остаются на этой странице. Можно использовать вымышленные данные.</p>
+          <div class="form-fields">
+            <div>
+              <label for="contact-name">Имя</label>
+              <input id="contact-name" autocomplete="name" maxlength="80" required placeholder="Александр" aria-describedby="name-error">
+              <p id="name-error" class="field-error" aria-live="polite"></p>
+            </div>
+            <div>
+              <label for="contact-phone">Телефон</label>
+              <input id="contact-phone" type="tel" autocomplete="tel" maxlength="26" required pattern="[+0-9 .\(\)\-]{7,26}" title="Введите от 7 до 26 символов. Допустимы цифры, пробелы, плюс, скобки, точки и дефисы." placeholder="+7 (000) 000-00-00" aria-describedby="phone-error">
+              <p id="phone-error" class="field-error" aria-live="polite"></p>
+            </div>
+            <label class="field-wide">Услуга <select id="service">
+              <option value="">Помогите подобрать услугу</option>
+              <option value="ceramic">Керамическое покрытие</option>
+              <option value="polish">Полировка кузова</option>
+              <option value="film">Оклейка защитной плёнкой</option>
+              <option value="interior">Детейлинг интерьера</option>
+            </select></label>
+          </div>
+          <button class="button button-gold" type="submit" disabled>Проверить демо-заявку <svg aria-hidden="true"><use href="#diagonal"/></svg></button>
+          <noscript><p class="fine-print">Для проверки формы включите JavaScript.</p></noscript>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#top" aria-label="Aurum Detail, в начало">
+        <img src="assets/mark.svg" width="33" height="33" alt="">
+        <span>AURUM<span class="brand-small">DETAIL</span></span>
+      </a>
+      <p>Демонстрационный сайт вымышленной студии</p>
+      <a class="top-link" href="#top">Наверх <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+    </div>
+  </footer>
+</body>
+</html>
+
